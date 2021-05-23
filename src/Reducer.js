@@ -1,5 +1,5 @@
 import socket from 'socket.io-client';
-const endPoint = "http://localhost:5000";
+const endPoint = "https://glib-shining-biplane.glitch.me";
 
 const reducer = (state = { loading: false, users: [], messages: {}, io: socket(endPoint) }, action) => {
     console.log('payload', action);

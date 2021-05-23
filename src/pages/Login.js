@@ -14,7 +14,7 @@ const Login = () => {
         if (!pageLoading) {
             console.log('payload', payload)
             dispatch(loading(true));
-            let data = await fetch('http://localhost:5000/login', {
+            let data = await fetch('https://glib-shining-biplane.glitch.me/login', {
                 method: 'POST',
                 body: JSON.stringify({ "username": payload.username, "password": payload.password }),
                 headers: {

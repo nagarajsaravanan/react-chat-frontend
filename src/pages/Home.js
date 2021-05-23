@@ -15,7 +15,7 @@ const Home = () => {
         console.log('inn');
         async function getUsers(){
             dispatch(loading(true));
-            let data = await fetch('http://localhost:5000/users', {
+            let data = await fetch('https://glib-shining-biplane.glitch.me/users', {
                 method: 'GET',
                 headers: {
                     'Content-type': 'application/json'
