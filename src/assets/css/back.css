@@ -1,0 +1,13 @@
+.back-btn{
+    width: 38px;
+    top: 14px;
+    left: 20px;
+    position: fixed;
+    z-index: 3;
+}
+.back-btn img{
+    background: #fdf25d;
+    width: 100%;
+    padding: 2px;
+    cursor: pointer;
+}

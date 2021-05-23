@@ -1,0 +1,18 @@
+.error-page{
+    color: #585656;
+    font-size: 50px;
+    text-align: center;
+    background-image: url(../../assets/svg/blob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 161px 0px;
+}
+.home-link{
+    text-align: center;
+}
+.home-link a{
+    color: #fdf03ed6;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}

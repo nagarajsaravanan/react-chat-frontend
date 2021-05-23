@@ -1,0 +1,24 @@
+.chat-list{
+    display: flex;
+    padding-bottom: 20px;
+}
+.chat-list:active{
+    color: gray;
+}
+.profile-img{
+    max-width: 70px;
+    padding: 0px 10px 0px 0px;
+}
+.profile-img img{
+    width: 100%;
+    border-radius: 45px;
+    min-height: 70px;
+}
+.name{
+    margin-top: 14px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.status{
+    margin-top: 8px;
+}

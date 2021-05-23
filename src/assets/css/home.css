@@ -1,0 +1,25 @@
+.home-page .peaople-search {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    background: #fdf03ed6;
+}
+.home-page .people-list{
+    min-height: 300px;
+    border-radius: 50px 50px 0px 0px;
+    background: white;
+    padding: 55px 45px;
+    padding-top: 100px;
+}
+.people-list a{
+    text-decoration: none;
+    color: #0e0b0b;
+}
+.chat-heading{
+    padding: 20px;
+    padding-left: 75px;
+}
+.chat-heading span{
+    display: block;
+    font-size: 30px;
+}
